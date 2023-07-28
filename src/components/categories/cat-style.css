@@ -1,0 +1,31 @@
+.react-tabs__tab--selected {
+    background: #6456ff;
+    border-color: #aaa;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 5px 5px 0 0;
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-bottom: none;
+    bottom: -1px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    font-weight: 500;
+    position: relative;
+    list-style: none;
+    padding: 10px 22px;
+    cursor: pointer;
+}
+
+.react-tabs__tab-list {
+    border-bottom: 0px solid #aaa;
+
+    margin: auto;
+    padding: 0;
+}
